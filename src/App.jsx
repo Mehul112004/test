@@ -34,7 +34,7 @@ function App() {
             name="url"
             onChange={handleChange}
             value={url}
-            autocomplete="false"
+            autocomplete="off"
           />
           <div className="flex gap-4">
             <button
